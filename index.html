@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACET-project</title>
     <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
         body{
             text-align: center;
         }
@@ -27,10 +32,29 @@
             color: #074880;
             font-size: 40px;
          }
+         footer{
+            background-color: #074880; 
+            color: white;
+            padding: 1rem;
+            width: 100%;
+            position:fixed;
+            bottom: 0;
+           
+         }
+        
+          .top-img{
+            height: 30%;
+            img{height:100% ;}
+          
+          }
+          .h1{
+            font-size: 1.5rem;
+          }
+         
     </style>
 </head>
 <body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" >
-    <div>
+    <div class="top-img">
         <img src="./images/acet banner.png" alt="ACET-banner" width="100%">
     </div>
     <div id=titles>
@@ -42,8 +66,8 @@
     </div>	
     <br>
     <div>
-        <h1><u>Anna University Regulation-2021</u></h1>
-        <h1><u>ACET - Notes, Syllabus, Question Papers and Timetable.</u></h1>
+        <h1 class="h1"><u>Anna University Regulation-2021</u></h1>
+        <h1 class="h1"><u>ACET - Notes, Syllabus, Question Papers and Timetable.</u></h1>
     </div>
     <br><br><br>
     <div style="text-align: center;">
@@ -56,6 +80,9 @@
         <div class="logo"><a href=""><img src="./images/Timetable.png" alt="" height="100%" width="100%"></a>
         </div>
     </div>
+    <footer>
+        <p>Copyrights <i class="fa fa-copyright" aria-hidden="true"></i> Annai College Of Engineering and Technology.All Rights Reserved</p>
+    </footer>
 
 </body>
 </html>
