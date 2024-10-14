@@ -36,6 +36,7 @@ li{
     display: flex;
     border-radius: 0.5rem;
 min-height: 4rem;
+max-height: 6rem;
  
 }
 #dep-name{
