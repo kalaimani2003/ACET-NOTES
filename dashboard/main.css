@@ -35,9 +35,8 @@ li{
 .heading{
     display: flex;
     border-radius: 0.5rem;
-  h1{
-    margin: 3px auto;
-  }
+min-height: 4rem;
+ 
 }
 #dep-name{
     position: sticky;
