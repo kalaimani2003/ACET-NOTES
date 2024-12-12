@@ -5,89 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACET-project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <style>
-        *{
-            margin: 0%;
-            padding: 0%;
-            box-sizing: border-box;
-        }
-        body{
-            text-align: center;
-        }
-        #titles
-        {
-            background-color: #074880; 
-            padding: 10px;
-            width: 100%;
-        }
-        .logo{
-            height: 150px;
-            width: 150px;
-            display: inline-block;
-        }
-        /* .logo:hover{
-            background-color: gray;
-        } */
-         h1{
-            text-align: center;
-            color: #074880;
-            font-size: 40px;
-         }
-         footer{
-            background-color: #074880; 
-            color: white;
-            padding: 1rem;
-            width: 100%;
-            position:fixed;
-            bottom: 0;
-           
-         }
-        
-          .top-img{
-           
-            img{height:5rem;}
-          
-          }
-          .h1{
-            font-size: 1.5rem;
-          }
-         
-    </style>
+    <link rel="stylesheet" href="acet.css">
 </head>
-<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" >
+<body>
     <div class="top-img">
         <img src="./images/acet banner.png" alt="ACET-banner" width="100%">
     </div>
     <div id=titles>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a style="color:#FFFFFF; size:10px; font-weight:200; text-decoration:none" href="index.html">&nbsp;&nbsp;| Home |</a>
-        <a style="color:#FFFFFF; size:10px; font-weight:200; text-decoration:none" href="./index pdfs/AicteApproval2023-2024.pdf.crdownload">&nbsp;&nbsp;| AICTE Approval 23-24 |</a>
-        <a style="color:#FFFFFF; size:10px; font-weight:200; text-decoration:none" href="./index pdfs/AnnaUniversityAffiliationOrder2023.pdf.crdownload">&nbsp;&nbsp;| Anna University Affiliation 23-24 |</a>
-        <a style="color:#FFFFFF; size:10px; font-weight:200; text-decoration:none" href="./index pdfs/ACET8205-Application.pdf.crdownload">&nbsp;&nbsp;| Download Application |</a>
+        <a class="nav-links" href="index.html">| Home |</a>
+        <a class="nav-links" href="./index-pdfs/AicteApproval2023-2024.pdf.crdownload" download="">| AICTE Approval 23-24 |</a>
+        <a class="nav-links" href="./index pdfs/AnnaUniversityAffiliationOrder2023" download="">| Anna University Affiliation 23-24 |</a>
+        <a class="nav-links" href="./index pdfs/ACET8205-Application.pdf.crdownload" download="">| Download Application |</a>
     </div>	
     <br>
     <div>
-        <h1 class="h1"><u>Anna University Regulation-2021</u></h1>
-        <h1 class="h1"><u>ACET - Notes, Syllabus, Question Papers and Timetable.</u></h1>
+        <h1 class="headline"><u>Anna University Regulation-2021</u></h1>
+        <h1 class="headline"><u>ACET - Notes, Syllabus, Question Papers and Timetable.</u></h1>
     </div>
     <br><br><br>
-    <div style="text-align: center;">
-        <div class="logo"><a href="dept.html"><img src="./images/Notes-Qp.png" alt="" height="100%" width="100%"></a>
-        </div>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <div class="logo"><a href=""><img src="./images/Syllabus.png" alt="" height="100%" width="100%"></a>
-        </div>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <div class="logo"><a href=""><img src="./images/Timetable.png" alt="" height="100%" width="100%"></a>
+    <div class="button-icons">
+        <div class="button-icons-in">
+            <div class="logo">
+                <div class="logo-in">
+                    <a href="dept.html"><img  src="./images/Notes-Qp.png" alt="" height="100%" width="100%"></a>
+                </div>
+            </div>
+            <div class="logo">
+                <div class="logo-in">
+                    <a href="" ><img src="./images/Syllabus.png" alt="" height="100%" width="100%"></a>
+                </div>
+            </div>
+            <div class="logo">
+                <div class="logo-in">
+                    <a href=""><img src="./images/Timetable.png" alt="" height="100%" width="100%"></a>
+                </div>
+            </div>
         </div>
     </div>
-    <div style="height: 5rem;">
 
+    <div>
+        <footer  class="Copyr" >
+            <p>Copyrights <i class="fa fa-copyright" aria-hidden="true"></i> Annai College Of Engineering and Technology.All Rights Reserved</p>
+        </footer>
     </div>
-    <footer>
-        <p>Copyrights <i class="fa fa-copyright" aria-hidden="true"></i> Annai College Of Engineering and Technology.All Rights Reserved</p>
-    </footer>
-
 </body>
 </html>
+
